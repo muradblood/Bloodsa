@@ -8,7 +8,7 @@ status:
 browser-compat: api.Accelerometer.Accelerometer
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}{{SeeCompatTable}}
+{{APIRef("Sensor API")}}{{SeeCompatTable}}
 
 The **`Accelerometer()`** constructor creates a new {{domxref("Accelerometer")}} object which returns the acceleration of the device along all three axes at the time it is read.
 
@@ -25,9 +25,9 @@ new Accelerometer(options)
 
   - : Options are as follows:
 
-    - `frequency` {{optional_inline}}
+    - `frequency`
       - : The desired number of times per second a sample should be taken, meaning the number of times per second the {{domxref('sensor.reading_event', 'reading')}} event will be called. A whole number or decimal may be used, the latter for frequencies less than a second. The actual reading frequency depends on the device hardware and consequently may be less than requested.
-    - `referenceFrame` {{optional_inline}}
+    - `referenceFrame`
       - : Either `'device'` or `'screen'`. The default is `'device'`.
 
 ### Exceptions

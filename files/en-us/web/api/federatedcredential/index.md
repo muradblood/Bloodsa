@@ -31,6 +31,10 @@ _Inherits properties from its ancestor, {{domxref("Credential")}}._
 - {{domxref("FederatedCredential.protocol")}} {{ReadOnlyInline}} {{Experimental_Inline}}
   - : Returns a string containing a credential's federated identity protocol.
 
+### Event handlers
+
+None.
+
 ## Instance methods
 
 None.

@@ -5,7 +5,7 @@ page-type: web-api-interface
 browser-compat: api.AbsoluteOrientationSensor
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{APIRef("Sensor API")}}
 
 The **`AbsoluteOrientationSensor`** interface of the [Sensor APIs](/en-US/docs/Web/API/Sensor_APIs) describes the device's physical orientation in relation to the Earth's reference coordinate system.
 

@@ -6,9 +6,10 @@ page-type: web-api-instance-method
 browser-compat: api.Sensor.stop
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{APIRef("Sensor API")}}
 
-The **`stop()`** method of the {{domxref("Sensor")}} interface deactivates the current sensor.
+The **`stop`** method of the
+{{domxref("Sensor")}} interface deactivates the current sensor.
 
 ## Syntax
 

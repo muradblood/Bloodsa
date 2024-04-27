@@ -6,7 +6,7 @@ page-type: web-api-instance-property
 browser-compat: api.Sensor.hasReading
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{APIRef("Sensor API")}}
 
 The **`hasReading`** read-only
 property of the {{domxref("Sensor")}} interface returns a boolean value

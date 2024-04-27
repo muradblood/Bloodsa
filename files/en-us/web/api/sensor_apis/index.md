@@ -2,27 +2,14 @@
 title: Sensor APIs
 slug: Web/API/Sensor_APIs
 page-type: web-api-overview
-browser-compat:
-  - api.Sensor
-  - api.Accelerometer
-  - api.OrientationSensor
-  - api.Gyroscope
-  - api.Magnetometer
-  - api.AmbientLightSensor
-spec-urls:
-  - https://w3c.github.io/sensors/
-  - https://w3c.github.io/accelerometer/
-  - https://w3c.github.io/orientation-sensor/
-  - https://w3c.github.io/ambient-light/
-  - https://w3c.github.io/gyroscope/
-  - https://w3c.github.io/magnetometer/
+browser-compat: api.Sensor
 ---
 
-{{securecontext_header}}{{DefaultAPISidebar("Sensor API")}}
+{{DefaultAPISidebar("Sensor API")}}
 
 The **Sensor APIs** are a set of interfaces built to a common design that expose device sensors in a consistent way to the web platform.
 
-## Concepts and usage
+## Sensor APIs concepts and usage
 
 Although the Generic Sensor API specification defines a {{domxref('Sensor')}} interface, as a web developer you will never use it. Instead you'll use one of its subclasses to retrieve specific kinds of sensor data. For example, the {{domxref('Accelerometer')}} interface returns the acceleration of the device along all three axes at the time it is read.
 

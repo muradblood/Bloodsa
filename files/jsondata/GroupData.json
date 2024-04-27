@@ -215,10 +215,12 @@
         "Credential",
         "CredentialsContainer",
         "FederatedCredential",
-        "PasswordCredential"
+        "OTPCredential",
+        "PasswordCredential",
+        "PublicKeyCredential"
       ],
       "methods": [],
-      "properties": ["Navigator.credentials"],
+      "properties": [],
       "events": []
     },
     "CSS Counter Styles": {
@@ -2158,8 +2160,8 @@
       "properties": [],
       "events": []
     },
-    "WebSockets API": {
-      "overview": ["WebSockets API"],
+    "Websockets API": {
+      "overview": ["Websockets API"],
       "guides": [
         "/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications",
         "/docs/Web/API/WebSockets_API/Writing_WebSocket_servers",

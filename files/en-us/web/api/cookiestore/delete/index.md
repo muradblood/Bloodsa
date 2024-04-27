@@ -3,10 +3,12 @@ title: "CookieStore: delete() method"
 short-title: delete()
 slug: Web/API/CookieStore/delete
 page-type: web-api-instance-method
+status:
+  - experimental
 browser-compat: api.CookieStore.delete
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}
+{{securecontext_header}}{{APIRef("Cookie Store API")}}{{SeeCompatTable}}
 
 The **`delete()`** method of the {{domxref("CookieStore")}} interface deletes a cookie with the given name or options object. The `delete()` method expires the cookie by changing the date to one in the past.
 

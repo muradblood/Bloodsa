@@ -6,7 +6,7 @@ page-type: web-api-constructor
 browser-compat: api.RelativeOrientationSensor.RelativeOrientationSensor
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{APIRef("Sensor API")}}
 
 The **`RelativeOrientationSensor()`**
 constructor creates a new {{domxref("RelativeOrientationSensor")}} object which
@@ -25,14 +25,14 @@ new RelativeOrientationSensor(options)
 
   - : Options are as follows:
 
-    - `frequency` {{optional_inline}}
+    - `frequency`
       - : The desired number of times per second a sample
         should be taken, meaning the number of times per second that the
         {{domxref('sensor.reading_event', 'reading')}} event will be called. A whole number or decimal
         may be used, the latter for frequencies less than a second. The actual
         reading frequency depends device hardware and consequently may be less
         than requested.
-    - `referenceFrame` {{optional_inline}}
+    - `referenceFrame`
       - : Either `'device'` or
         `'screen'`. The default is `'device'`.
 

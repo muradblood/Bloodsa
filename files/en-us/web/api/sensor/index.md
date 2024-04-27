@@ -5,7 +5,7 @@ page-type: web-api-interface
 browser-compat: api.Sensor
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{APIRef("Sensor API")}}
 
 The **`Sensor`** interface of the [Sensor APIs](/en-US/docs/Web/API/Sensor_APIs) is the base class for all the other sensor interfaces. This interface cannot be used directly. Instead it provides properties, event handlers, and methods accessed by interfaces that inherit from it.
 

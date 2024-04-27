@@ -3,10 +3,12 @@ title: "CookieStore: change event"
 short-title: change
 slug: Web/API/CookieStore/change_event
 page-type: web-api-event
+status:
+  - experimental
 browser-compat: api.CookieStore.change_event
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}
+{{securecontext_header}}{{APIRef("Cookie Store API")}}{{SeeCompatTable}}
 
 A `change` event is fired at a {{domxref("CookieStore")}} object when a change is made to any cookie.
 

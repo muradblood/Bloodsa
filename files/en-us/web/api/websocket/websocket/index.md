@@ -6,7 +6,7 @@ page-type: web-api-constructor
 browser-compat: api.WebSocket.WebSocket
 ---
 
-{{APIRef("WebSockets API")}}
+{{APIRef("Web Sockets API")}}
 
 The **`WebSocket()`** constructor returns a new
 {{domxref("WebSocket")}} object.

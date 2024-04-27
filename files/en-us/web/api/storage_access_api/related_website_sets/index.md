@@ -10,8 +10,6 @@ spec-urls: https://wicg.github.io/first-party-sets/
 
 {{DefaultAPISidebar("Storage Access API")}}
 
-> **Warning:** This feature is currently opposed by two browser vendors. See the [Standards positions](#standards_positions) section below for details of opposition.
-
 Related website sets are a mechanism for defining a set of related sites that share trusted content. As a result, browsers will grant default access for these sites to [third-party cookies](/en-US/docs/Web/HTTP/Cookies#third-party_cookies) when they have content embedded in other set members.
 
 ## Concepts and usage
@@ -151,7 +149,7 @@ RWS has been designed with security in mind. It would be disastrous if a bad act
 
 ### Standards positions
 
-Two browser vendors [oppose](/en-US/docs/Glossary/Web_standards#opposing_standards) this specification. Known positions are as follows:
+One or more vendors oppose this specification. Known positions are as follows:
 
 - Mozilla (Firefox): [Negative](https://mozilla.github.io/standards-positions/#first-party-sets)
 - Apple (Safari): [Negative](https://webkit.org/standards-positions/#position-93)

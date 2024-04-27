@@ -8,7 +8,7 @@ status:
 browser-compat: api.Magnetometer.x
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}{{SeeCompatTable}}
+{{APIRef("Sensor API")}}{{SeeCompatTable}}
 
 The **`x`** read-only property of the
 {{domxref("Magnetometer")}} interface returns a number specifying

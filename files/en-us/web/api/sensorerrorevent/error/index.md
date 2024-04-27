@@ -6,7 +6,7 @@ page-type: web-api-instance-property
 browser-compat: api.SensorErrorEvent.error
 ---
 
-{{securecontext_header}}{{APIRef("Sensor API")}}
+{{APIRef("Sensor API")}}
 
 The **`error`** read-only property of
 the {{domxref("SensorErrorEvent")}} interface returns the {{domxref('DOMException')}}

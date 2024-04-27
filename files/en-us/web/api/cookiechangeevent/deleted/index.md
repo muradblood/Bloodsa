@@ -3,10 +3,12 @@ title: "CookieChangeEvent: deleted property"
 short-title: deleted
 slug: Web/API/CookieChangeEvent/deleted
 page-type: web-api-instance-property
+status:
+  - experimental
 browser-compat: api.CookieChangeEvent.deleted
 ---
 
-{{securecontext_header}}{{APIRef("Cookie Store API")}}
+{{securecontext_header}}{{APIRef("Cookie Store API")}}{{SeeCompatTable}}
 
 The **`deleted`** read-only property of the {{domxref("CookieChangeEvent")}} interface returns an array of the cookies that have been deleted by the given `CookieChangeEvent` instance.
 

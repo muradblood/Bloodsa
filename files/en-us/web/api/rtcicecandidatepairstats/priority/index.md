@@ -5,11 +5,10 @@ slug: Web/API/RTCIceCandidatePairStats/priority
 page-type: web-api-instance-property
 status:
   - deprecated
-  - non-standard
 browser-compat: api.RTCStatsReport.type_candidate-pair.priority
 ---
 
-{{APIRef("WebRTC")}}{{deprecated_header}}{{non-standard_header}}
+{{APIRef("WebRTC")}}{{deprecated_header}}
 
 The _obsolete_ {{domxref("RTCIceCandidatePairStats")}}
 property **`priority`** reports the priority of the candidate

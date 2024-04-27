@@ -85,7 +85,6 @@ You can include any of the following here, but not in all browsers: check the co
 - `privacy`
 - `proxy`
 - `scripting`
-- `search`
 - `sessions`
 - `tabHide`
 - `tabs`
